@@ -1,0 +1,40 @@
+figure {
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+  & figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0 1rem;
+    color: #EAEAEA;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &:hover figcaption {
+    opacity: 1;
+  }
+
+  & img {
+    display: block;
+  }
+}
+
+.pswp__custom-caption {
+  position: absolute;
+  bottom: 0;
+  padding: 0 1rem;
+  color: #EAEAEA;
+}
+
+.figure.fl {
+  float: left;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.figure.fr {
+  float: right;
+  padding: 1rem 0 1rem 1rem;
+}
