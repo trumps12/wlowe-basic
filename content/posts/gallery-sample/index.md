@@ -6,9 +6,9 @@ tags: ["example"]
 ---
 
 {{< gallery caption-effect="fade" >}}
-  {{< figure src="hexagon.jpg" alt="hexagon" caption="hexagons are bestagons" >}}
-  {{< figure src="sphere.jpg" >}}
-  {{< figure src="triangle.jpg" >}}
+  {{< figure src="hexagon.jpg" alt="a photo of hexagon-shaped tiles at varying depths" caption="hexagons are bestagons" >}}
+  {{< figure src="sphere.jpg" alt="the edge of a sphere represented as a wire mesh" >}}
+  {{< figure src="triangle.jpg" alt="a wallpaper pattern consisting of overlapping trianges" >}}
 {{< /gallery >}}
 
 <!--more-->
