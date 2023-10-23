@@ -19,7 +19,12 @@ figure {
 
   & img {
     display: block;
+    max-width: 100%;
   }
+}
+
+.pswp-gallery {
+  max-width: 100vw;
 }
 
 .pswp__custom-caption {
