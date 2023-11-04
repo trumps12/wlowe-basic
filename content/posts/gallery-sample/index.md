@@ -5,11 +5,11 @@ date: 2017-03-20
 tags: ["example"]
 ---
 
-{{< gallery caption-effect="fade" >}}
+{{< carousel caption-effect="fade" >}}
   {{< figure src="hexagon.jpg" alt="a photo of hexagon-shaped tiles at varying depths" caption="hexagons are bestagons" >}}
   {{< figure src="sphere.jpg" alt="the edge of a sphere represented as a wire mesh" >}}
   {{< figure src="triangle.jpg" alt="a wallpaper pattern consisting of overlapping trianges" >}}
-{{< /gallery >}}
+{{< /carousel >}}
 
 <!--more-->
 

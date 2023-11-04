@@ -1,5 +1,7 @@
 import Lightbox from './photoswipe-lightbox.esm.js';
 
+import './carousel'
+
 document.addEventListener('DOMContentLoaded', () => {
     const galleryElements = [document.body]
     for (const galleryElement of galleryElements) {
