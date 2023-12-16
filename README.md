@@ -18,3 +18,14 @@ Add an image to the markdown with e.g.
 `![.fl|Crepe](crepe.jpg)`
 
 The `.fl` is a class that will float the image left. This is a customisation, and is not part of markdown standard.
+
+## Issues / changes
+### Blog posts tags
+- Need to ensure the Tags stay below the blog content, just above the footer
+
+### Portfolio
+- Remove tags from content
+
+### Home page
+- Add Carousel
+- Remove tags
