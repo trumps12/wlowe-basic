@@ -6,6 +6,7 @@
 
 ### Menu
 - make drop down on hover.  ie Portfolio/birds and Portfolio/Landscapes
+- make menu responsive for phones
 
 ### Blog posts tags
 - Need to ensure the Tags stay below the blog content, just above the footer.  Currently can move up beside image.
