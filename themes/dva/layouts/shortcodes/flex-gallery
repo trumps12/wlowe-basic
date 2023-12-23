@@ -17,21 +17,23 @@
 <main class="cards">
 
     {{ $image := resources.Get "/imgs/godwit2.jpg" }}
-    <img src="{{ $image.RelPermalink }}" alt="" >
+
+    {{/*  =========needs <a> tag to trigger lightbox.  WORKs but have not passed captions and css style for lightbox================  */}}
+      
+    <a href="{{$image.Permalink | safeHTMLAttr }}">
+    <img src="{{ $image.RelPermalink }}" alt="" caption="Zero" >
+    </a>
   {{ $image := resources.Get "/imgs/godwit4.jpg" }}
-    <img src="{{ $image.RelPermalink }}" alt="">
+    <img src="{{ $image.RelPermalink }}" alt="" caption="1">
   {{ $image := resources.Get "/imgs/godwit6.jpg" }}
-    <img src="{{ $image.RelPermalink }}" alt="" >
+    <img src="{{ $image.RelPermalink }}" alt="" caption="2" >
     {{ $image := resources.Get "/imgs/whitefacedheron.jpg" }}
-    <img src="{{ $image.RelPermalink }}" alt="">
+    <img src="{{ $image.RelPermalink }}" alt="" caption="3">
   {{ $image := resources.Get "/imgs/dancing-pied-stilts.jpg" }}
     <img src="{{ $image.RelPermalink }}" alt="">
     {{ $image := resources.Get "/imgs/lake-reflection.jpg" }}
     <img src="{{ $image.RelPermalink }}" alt="" caption="Lake Reflection">
 
-{{/*  =============trying range of imgs folder===============  */}}
-{{/*  {{ range resources.Match "imgs/*" }}
-  <img src="{{ .RelPermalink }}"  alt="">
-{{ end }}  */}}
+
 
   </main>

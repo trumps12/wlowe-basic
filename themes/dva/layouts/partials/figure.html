@@ -20,7 +20,7 @@
 <a href="{{$img.Permalink | safeHTMLAttr }}" itemprop="contentUrl" data-pswp-width="{{ $img.Width | safeHTMLAttr }}" data-pswp-height="{{ $img.Height | safeHTMLAttr }}" {{ with $class }}class="{{. | safeHTMLAttr }}"{{ end }}>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <img itemprop="thumbnail" src="{{ $thumb.Permalink | safeURL }}" {{ with $alt | default ($caption) | default $thumb.Permalink }}alt="{{. | safeHTMLAttr }}"{{ end }}/>
-        {{- if or $title $caption}}
+        {{- if or $title $caption}} 
         <figcaption>
             {{- with $title }}<h4>{{ . | safeHTML }}</h4>{{ end }}
             {{- with $caption }}<p>{{ . | safeHTML }}</p>{{- end }}
