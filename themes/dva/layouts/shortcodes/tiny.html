@@ -37,27 +37,15 @@
 <body>  
     <div class="container">
   
-      {{/*  <div class="navContainer">
-        <{{ $image := resources.Get "/imgs/godwit2-th.jpg" }}
-        <img src="{{ $image.RelPermalink }}" alt="">
-      {{ $image := resources.Get "/imgs/godwit4-th.jpg" }}
-        <img src="{{ $image.RelPermalink }}" alt="">
-      {{ $image := resources.Get "/imgs/godwit6-th.jpg" }}
-        <img src="{{ $image.RelPermalink }}" alt="" >
-        {{ $image := resources.Get "/imgs/whitefacedheron-th.jpg" }}
-        <img src="{{ $image.RelPermalink }}" alt="">
-      {{ $image := resources.Get "/imgs/dancing-pied-stilts-th.jpg" }}
-        <img src="{{ $image.RelPermalink }}" alt="">
-
-      </div>  */}}
+      
   </div>
         <div class="slider">
           <{{ $image := resources.Get "/imgs/carousel/godwit-reflection-slide.jpg" }} 
             <img src="{{ $image.RelPermalink }}" alt="">
           {{ $image := resources.Get "/imgs/carousel/godwit-bathtime-slide.jpg" }}
             <img src="{{ $image.RelPermalink }}" alt="">
-          {{/*  {{ $image := resources.Get "/imgs/carousel/godwit-landing-slide.jpg" }}
-            <img src="{{ $image.RelPermalink }}" alt="" >  */}}
+          {{ $image := resources.Get "/imgs/carousel/godwit-landing-slide.jpg" }}
+            <img src="{{ $image.RelPermalink }}" alt="" > 
           {{ $image := resources.Get "/imgs/carousel/whitefacedheron-slide.jpg" }}
             <img src="{{ $image.RelPermalink }}" alt="">
           {{ $image := resources.Get "/imgs/carousel/pied-stilt-dance-slide.jpg" }}
@@ -72,9 +60,7 @@
             <img src="{{ $image.RelPermalink }}" alt="">
           </div>  
 </body>
-          {{/*  ================== 26-12-23 use thumbnails as nav=============  */}}
-
-          
+                    
           <script>
             var slider = tns({
                 container: ".slider",
