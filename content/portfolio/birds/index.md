@@ -5,7 +5,7 @@ date: 2023-12-12
 tags: ["Sea", "birds", "Coastal"]
 ---
 A collection of my favourite Avian images.  I currently focus on pronting a  selection of these onto aluminium panesl of varying sizes which are then suitable for use outside as garden are.
-How ever I can arrange printing onto a variety of mediums. There is also a possoble option of digital down loads of the full resolution image.  
+How ever I can arrange printing onto a variety of mediums. There is also a possible option of digital down loads of the full resolution image.  
 Click on any image to load a full size image.
 
 
@@ -19,6 +19,7 @@ Click on any image to load a full size image.
   {{< figure src="dancing-pied-stilts.jpg" alt="" caption="dancing" >}}
   {{< figure src="pied-stilt.jpg" alt="" caption="dancing" >}}
   {{< figure src="dotterel1.jpg" alt="" caption="Bow legged Dotterel" >}}
+   {{< figure src="tui-in-cherry.jpg" alt="" caption="Tui in a Cherry tree" >}}
   
 {{< /gallery >}}
 
