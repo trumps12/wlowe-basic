@@ -11,7 +11,7 @@ title = 'DVArt'
 
 [[menus.main]]
 name = 'Home'
-pageRef = '/home'
+pageRef = '/'
 weight = 10
 
 [[menus.main]]
@@ -41,17 +41,11 @@ name = 'About'
 pageRef = '/about'
 weight = 30
 
-[[menus.main]]
-name = 'Tags'
-pageRef = '/tags'
-weight = 40
-
-[[menus.main]]
-name = 'readme'
-pageRef = '/readme'
-weight = 100
-
 [module]
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-7KGVY0SXZM'
