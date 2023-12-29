@@ -5,6 +5,7 @@ description: 'Watching the Bartailed Godwits the morning after their ten day fli
 date: 2023-10-15
 featured_image: cover.jpg
 tags: ["godwit", "birds", "Miranda"]
+weight: 20
 ---
 
 Bartailed Godwits at the Miranda Bird sanctuary the morning after their non stop flight from Alaska.  

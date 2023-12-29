@@ -5,6 +5,7 @@ description: 'A plan comes to Fruition'
 date: 2022-01-15
 featured_image: cover.jpg
 tags: ["waterfall", "long exposure", "Keri Keri"]
+weight: 10
 ---
 
 Often with land scape photography I might visit a location during the day and visualise what a pleasing composition might look like at different times of the day. For example, where would the light come from at pre-dawn, sunrise or sunset.   
