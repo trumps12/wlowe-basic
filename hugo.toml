@@ -1,8 +1,9 @@
 baseURL = 'https://www.dva-art.com/'
 languageCode = 'en-us'
-title = 'DVArt'
+title = 'DVArt, Sharing the wonder of nature one image at a time'
 theme = 'dva'
  
+ enableRobotsTXT = true
 
  [[menus.main]]
 name = 'Home'

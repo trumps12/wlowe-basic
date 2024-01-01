@@ -1,7 +1,7 @@
 ---
 title: Rainbow Falls Keri Keri
 subtitle: 
-description: 'A plan comes to Fruition'
+description: 'A plan comes to fruition. Rainbow falls just after sunrise.'
 date: 2022-01-15
 featured_image: cover.jpg
 tags: ["waterfall", "long exposure", "Keri Keri"]
