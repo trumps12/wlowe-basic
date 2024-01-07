@@ -5,6 +5,7 @@ description: 'Watching the Bartailed Godwits the morning after their ten day fli
 date: 2023-10-15
 featured_image: cover.jpg
 tags: ["godwit", "birds", "Miranda"]
+socialshare: true
 weight: 20
 ---
 

@@ -1,4 +1,23 @@
+# ===========images must be in static folder at the moment==========
+
 images: 
-  - image: /assets/imgs/godwit2.jpg
-    content_html: "Godwit reflection"
- 
+  - image: /imgs/slider/godwit-bathtime-slide.jpg
+    content_html: ""
+  - image: /imgs/slider/godwit-reflection-slide.jpg
+    content_html: ""
+  - image: /imgs/slider/whitefacedheron-slide.jpg
+    content_html: ""
+  - image: /imgs/slider/dotterel1-slide.jpg
+    content_html: ""
+  - image: /imgs/slider/pied-stilt-dance-slide.jpg
+    content_html: ""
+  - image: /imgs/slider/two-pied-stilts-slide.jpg
+    content_html: ""
+  - image: /imgs/slider/tui-in-cherry-slide.jpg
+    content_html: ""
+  - image: /imgs/slider/glendhu-bay-slide.jpg
+    content_html: ""
+  - image: /imgs/slider/lake-tree-reflection-slide.jpg
+    content_html: ""
+  - image: /imgs/slider/alex-sunset-slide.jpg
+    content_html: ""

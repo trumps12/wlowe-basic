@@ -5,7 +5,7 @@ theme = 'dva'
  
  enableRobotsTXT = true
 
- [[menus.main]]
+[[menus.main]]
 name = 'Home'
 pageRef = '/'
 weight = 10
@@ -42,6 +42,12 @@ weight = 30
     extended = false
     min = "0.116.0"
 
-    [services]
+[services]
   [services.googleAnalytics]
     ID = 'G-7KGVY0SXZM'
+
+[Params.social.share]
+  facebook = true
+  twitter = true
+  email = true
+

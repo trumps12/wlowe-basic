@@ -5,6 +5,7 @@ description: 'A plan comes to fruition. Rainbow falls just after sunrise.'
 date: 2022-01-15
 featured_image: cover.jpg
 tags: ["waterfall", "long exposure", "Keri Keri"]
+socialshare: true
 weight: 10
 ---
 
