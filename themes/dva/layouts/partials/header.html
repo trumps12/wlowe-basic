@@ -1,6 +1,36 @@
 {{/*  <h1>{{ site.Title }}</h1>  */}}
 
 <a href="{{.Site.BaseURL}}"><img src="{{ "imgs/DVArt.svg" | absURL }}" alt=""></a>
-  {{ partial "menu.html" (dict "menuID" "main" "page" .) }} 
+  {{/*  {{ partial "menu.html" (dict "menuID" "main" "page" .) }}   */}}
+
+  {{/*  {{ partial "menu.html" .}}   */}}
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+  
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+  
+          <li><a href="/">Home</a></li>
+          
+          <li class="services">
+            <a href="/">Portfolio</a>
+  
+            <!-- DROPDOWN MENU -->
+            <ul class="dropdown">
+              <li><a href="/portfolio/birds">Birds </a></li>
+              <li><a href="/portfolio/landscapes">Landscape</a></li>
+            </ul>
+  
+          </li>
+  
+          <li><a href="/posts">Blog</a></li>
+          <li><a href="/about">About</a></li>
+        </div>
+      </ul>
+    </nav>
 
 

@@ -13,13 +13,13 @@ Click on any image to load a full size image.
 <!-- ==============danes gallery=========== -->
 {{< gallery caption-effect="fade" >}}
   {{< figure src="godwit2.jpg" alt="Godwit reflection at Miranda" caption="Bartailed Godwit reflection" >}}
-  {{< figure src="godwit4.jpg" alt="Godwit mirror" caption="Mirror Image" >}}
+  {{< figure src="godwit4.jpg" alt="Godwit mirror image" caption="Mirror Image" >}}
   {{< figure src="whitefacedheron.jpg" alt="" caption="White faced Heron" >}}
    {{< figure src="godwit6.jpg" alt="" caption="godwit" >}}
   {{< figure src="dancing-pied-stilts.jpg" alt="" caption="dancing" >}}
-  {{< figure src="pied-stilt.jpg" alt="" caption="dancing" >}}
+  {{< figure src="pied-stilt.jpg" alt="Pied Stilt" caption="Pied Stilt" >}}
   {{< figure src="dotterel1.jpg" alt="" caption="Bow legged Dotterel" >}}
-   {{< figure src="tui-in-cherry.jpg" alt="" caption="Tui in a Cherry tree" >}}
+   {{< figure src="tui-in-cherry.jpg" alt="Tui in a Cherry Tree" caption="Tui in a Cherry tree" >}}
   
 {{< /gallery >}}
 
