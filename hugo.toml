@@ -5,42 +5,15 @@ theme = 'dva'
  
  enableRobotsTXT = true
 
-[[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
 
-[[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
-weight = 20
-
-[[menus.main]]
-name = 'Portfolio'
-pageRef = '/portfolio'
-weight = 25
-
-[[menus.main]]
-name = 'Birds'
-parent = 'Portfolio'
-pageRef = '/portfolio/birds'
-weight = 10
-
-[[menus.main]]
-name = 'Landscapes'
-parent = 'Portfolio'
-pageRef = '/portfolio/landscapes'
-weight = 10
-
-[[menus.main]]
-name = 'About'
-pageRef = '/about'
-weight = 30
 
 [module]
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+
+    [markup.goldmark.renderer]
+     hardWraps = true
 
 [services]
   [services.googleAnalytics]

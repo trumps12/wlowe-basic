@@ -2,6 +2,7 @@
 .carousel {position: relative;}
 
 .carousel ul {
+    
     overflow: auto; 
     display: flex; 
     flex-wrap: nowrap; 
@@ -28,6 +29,7 @@
     }
 
 .carousel ul li > * {
+    padding-top: 16px;
     position: absolute; 
     left: 0; 
     top: 0; 

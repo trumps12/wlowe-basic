@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 figure {
   position: relative;
   margin: 0;
@@ -37,16 +42,23 @@ figure {
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
+  
+  columns: 15rem 3;
+  gap: 1.4rem;
+
+  }
+
+
 .cards figure {
-  margin: 10px;
-  border: 3px solid #2b2a2a;
+  width:100%;
+  margin-bottom: 1rem;
+  border: 3px solid #5e5757;
   box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
-  max-width: 10vw;
+  
+  
+  
 }
+
 
 .figure.fl {
   float: left;
@@ -57,4 +69,5 @@ figure {
   float: right;
   padding: 1rem 0 1rem 1rem;
 }
+
 
