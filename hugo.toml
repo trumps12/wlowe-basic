@@ -6,7 +6,6 @@ theme = 'dva'
  enableRobotsTXT = true
 
 
-
 [module]
   [module.hugoVersion]
     extended = false
@@ -24,3 +23,6 @@ theme = 'dva'
   twitter = true
   email = true
 
+  [params]
+  Description = "Sharing the wonders of the natural world one image at a time.  A photographer and visual artist living in wonderful New Zealand"
+  Twitter_Image = "/imgs/DVArt.svg"

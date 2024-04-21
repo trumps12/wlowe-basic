@@ -6,9 +6,11 @@ author = "DVArt"
 +++
 
 Welcome, I am a photographer living in wonderful New Zealand.  I have a passion for sharing the wonders of the natural world one image at a time.
-Please have a look at my portfolios. I currently focus on having the bird images printed onto aluminium panels using dye sublimation which makes them ideal as garden art.  
+Please have a look at my portfolios. I currently focus on having the bird images printed onto alluminium panels using dye sublimation which makes them ideal as garden art.    
 
-I have many more images uploaded to the various print on demand websites that I use and a subset are also available on Adobe Stock.  
+I have many more images uploaded to the various print on demand websites that I use and a subset are also available on Adobe Stock. The full range of images available via print on demand sites can be found at:
+
+https://pixels.com/profiles/dva-photo-nz or at https://www.redbubble.com/people/DVart-nz/.  
 
 Having recently purchased a campervan I am now travelling and re-discovering how wonderful New Zealand is.  
 
