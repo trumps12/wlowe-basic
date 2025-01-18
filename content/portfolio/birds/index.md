@@ -20,6 +20,8 @@ Click on any image to load a full size image.
   {{< figure src="pied-stilt.jpg" alt="Pied Stilt" caption="Pied Stilt" >}}
   {{< figure src="dotterel1.jpg" alt="" caption="Bow legged Dotterel" >}}
   {{< figure src="tui-in-cherry.jpg" alt="Tui in a Cherry Tree" caption="Tui in a Cherry tree" >}}
+  {{< figure src="dotterel-strut.jpg" alt="" caption="A strutting Dotterel" >}}
+  {{< figure src="balancing-godwit.jpg" alt="" caption="Balancing Godwit" >}}
   
 {{< /gallery >}}
 
